@@ -1,0 +1,47 @@
+Project name ----- School management system
+
+## users
+student
+teacher
+admin
+
+## languages and frameworks
+python / flask
+frontend --- html, css, bootstrap
+
+## use cases / features of the system
+>> add courses, give assignment, 
+>> get grades for students
+
+## use cases >>> student
+>> extra-curricular activites  >> record / keep track of their extracurricular activities
+>> keep track course progress
+>> track finances
+>> Exams analysis 
+>> Behaviour management
+>> Picking and dropping kids
+>> Financial managemt 
+>> School and class attendance register
+>> Homework tracking
+
+architecture: Modularity.
+
+School Management System>>
+- main.py/ run.py ### entry point
+APP               ### sub-directory containing application
+__init__.py
+routes.py
+MODELS / HELPERS / UTILITIES / SERVICES  ###Subdirectory containing helper function.
+
+TEMPLATES         ### html templates
+-index.html
+-courses.html
+-login.html
+-signup.html
+-student dashboard
+-finances.html
+-fun.html
+
+STATIC            ### css, images
+-style.css
+- .jpg .png         >>image optimization

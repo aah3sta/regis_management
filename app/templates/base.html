@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% Block title %} {% endblock %}</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <header>This is my header</header>
+        <main>{% block content %}
+        <p>Welcome to Regis Runda Academy!</p>
+        <p>Kenyan curriculum with international standards!</p>
+        {% endblock %}
+        </main>
+
+    
+        <footer>@Copyright: Regis Runda Academy 2025
+        </footer>
+    </body>
+</html>
